@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+*/
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 40rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    gap: 42px;
+    padding: 19px 22px;
+}
+
+.color-naranja{
+    background:hsl(31, 77%, 52%) ;
+    color: hsl(31, 77%, 52%);
+}
+.color-light-verde{
+    background: hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%);
+}
+.color-hard-verde{
+    background: hsl(179, 100%, 13%);
+    color: hsl(179, 100%, 13%);
+}
+
+p{
+    font-size: 15px;
+}
+.box-1{
+    border-radius: 4px 0 0 4px;
+}
+
+.box-3{
+    border-radius: 0 4px 4px 0px;
+}
+
+.main-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: white;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+.main-flex p{
+    font-weight: 200;
+    font-family: "Lexend Deca", sans-serif;
+}
+.title-main{
+    font-size: 42px;
+}
+
+a{
+    text-decoration: none;
+    padding: 12px 9px;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: small;
+}
+
+.btn{
+    width: 60%;
+    background: white;
+    display: block;
+    text-align: center;
+    border-radius: 29px;
+}
